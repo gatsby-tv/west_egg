@@ -90,3 +90,6 @@ app.use(
     logger.info(`Server started at http://localhost:${port}/`);
   });
 })();
+
+// Export for tests
+export default app;
